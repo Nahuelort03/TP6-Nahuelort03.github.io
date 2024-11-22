@@ -153,11 +153,13 @@
 </body>
 </html>
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() 
+{
     // Inicializar EmailJS (asegúrate de configurarlo previamente)
     (function() {
-        emailjs.init("wrBOMNdDfuDldH6k1"); // Reemplaza con tu User ID de EmailJS
-    })();
+        emailjs.init("wrBOMNdDfuDldH6k1"); 
+        // Reemplaza con tu User ID de EmailJS
+        })();
 
     // ----------------------------
     // Funcionalidad de LOGIN (Index)
@@ -285,6 +287,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+
 });
 
 // Función para limpiar el formulario (Página 3)
@@ -292,7 +295,6 @@ document.addEventListener("DOMContentLoaded", function() {
 function clearMessageForm() {
     document.getElementById("message-form").reset();
 }
-
 
 // Función para limpiar el formulario (Página 3)
 function clearPersonalForm() {
