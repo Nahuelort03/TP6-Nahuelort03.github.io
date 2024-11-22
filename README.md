@@ -288,20 +288,24 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // Función para limpiar el formulario (Página 3)
+
 function clearMessageForm() {
     document.getElementById("message-form").reset();
 }
+
 
 // Función para limpiar el formulario (Página 3)
 function clearPersonalForm() {
     document.getElementById("personal-data-form").reset();
 }
+
 // ----------------------------
 // Función para navegar entre páginas
 // ----------------------------
 function navigateTo(url) {
     window.location.href = url;
     }
+
 
 /* Index */
 body.index {
