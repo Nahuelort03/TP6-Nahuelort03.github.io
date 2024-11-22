@@ -9,11 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
         const password = document.getElementById("password").value;
         // Simular usuario y contraseña válidos
         const validUsername = "admin";
-        const validPassword = "1234";
-        console.log("Datos ingresados:", username, password);
+        const validPassword = "1234"; console.log("Datos ingresados:",username, password);
         if (username === validUsername && password === validPassword) {
             console.log("Login exitoso, redirigiendo...");
-            alert(`Bienvenido, ${username}. Has ingresado correctamente.`);
+alert(`Bienvenido,${username}. Has ingresado correctamente.`);
             // Enviar correo informando quién ingresó
             emailjs.send("service_6ao64uc","template_ex25q5f", {
                 username: username
